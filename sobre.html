@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Inicio del sitio Hyperweb — Soluciones digitales, desarrollo web y optimización online." />
+<link rel="icon" href="assets/favicon.svg" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="responsive.css" />
+<script defer src="script.js"></script>
+<script defer src="menu.js"></script>
+<script defer src="whatsapp.js"></script>
+<title>Inicio - HYPERWEB</title>
+</head>
+<body>
+
+
+<header class="site-header" role="banner">
+  <nav class="nav" aria-label="Principal">
+    <a class="brand" href="index.html">
+      <div class="logo"><img src="logo tipo.png" alt="HYPERWEB"></div>
+    </a>
+    <!-- Botón hamburguesa -->
+    <button class="burger" id="openMenu" aria-label="Abrir menú">☰</button>
+    <!-- Menú normal -->
+    <ul class="navlinks">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="sobre.html">Nosotros</a></li>
+      <li><a href="servicios.html">Servicios</a></li>  
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="documentacion.html">Documentación</a></li>
+      <li><a href="contacto.html" class="btn primary">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Botón Burger -->
+<button class="burger" id="openMenu" aria-label="Abrir menú"><i></i></button>
+
+<!-- Botón Burger -->
+<button class="burger" id="openMenu" aria-label="Abrir menú"><i></i></button>
+
+<!-- Menú Móvil -->
+<div id="mobileMenu" class="mobile" aria-hidden="true">
+  <div class="sheet">
+    <!-- Logo Arriba -->
+    <div class="mobile-logo">
+      <img src="logo tipo.png" alt="HYPERWEB">
+    </div>
+
+    <!-- Enlaces del Menú -->
+    <nav class="mobile-nav">
+      <a href="index.html">Inicio</a>
+      <a href="sobre.html">Nosotros</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="blog.html">Blog</a>
+      <a href="documentacion.html">Documentación</a>
+    </nav>
+
+    <!-- Botón Abajo -->
+    <div class="mobile-footer">
+      <a href="contacto.html" class="btn primary">Iniciar sesión</a>
+    </div>
+  </div>
+</div>
+
+
+
+<section class="hero hero-section">
+  <div class="wrap">
+    <div>
+      <span class="kicker"><i></i> Nuestra historia</span>
+      <h1 data-edit="about.title" contenteditable="false">Conoce HYPERWEB</h1>
+      <p class="lead" data-edit="about.desc" contenteditable="false">Somos una empresa de desarrollo de software dedicada a ofrecer soluciones tecnológicas innovadoras que optimizan procesos, impulsan ventas y fortalecen la presencia digital de nuestros clientes.</p>
+      <div class="cta">
+        <a class="btn" href="equipo.html">Conoce al equipo</a>
+        <a class="btn primary" href="metodologia.html">Nuestra metodología</a>
+      </div>
+    </div>
+    <div class="hero-media card">
+      <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop" alt="Equipo colaborando">
+      <div class="mini-grid">
+        <div class="card"><div class="chip"></div><strong>Quiénes Somos</strong><p class="muted">Impulsamos negocios con soluciones tecnológicas eficientes.nk,.</p></div>
+        <div class="card"><div class="chip chip-green"></div><strong>Qué Hacemos</strong><p class="muted">Creamos software y webs a la medida.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap grid grid-3">
+    <div class="card">
+      <h3>Misión</h3>
+      <p class="muted">Ofrecer soluciones tecnológicas innovadoras y accesibles que ayuden a empresas y microempresas a optimizar sus procesos y crecer de forma sostenible.</p>
+    </div>
+    <div class="card">
+      <h3>Visión</h3>
+      <p class="muted">Ser una empresa referente en desarrollo de software y transformación digital en la región, destacando por la calidad e innovación de nuestros servicios.</p>
+    </div>
+    <div class="card">
+      <h3>Valores</h3>
+      <ul>
+        <li>Innovación y creatividad</li>
+        <li>Compromiso y responsabilidad</li>
+        <li>Calidad y eficiencia</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="foot">
+    <a class="brand" href="index.html">
+      <div class="logo">
+        <img src="logo tipo.png" alt="HYPERWEB">
+      </div>
+    </a>
+
+    <div>
+      <h4>Nosotros</h4>
+      <a href="sobre.html">Quiénes somos</a><br>
+      <a href="servicios.html">Servicios</a><br>
+      <a href="portafolio.html">Portafolio</a>
+    </div>
+
+    <div>
+      <h4>Recursos</h4>
+      <a href="blog.html">Blog</a><br>
+      <a href="documentacion.html">Documentación</a><br>
+      <a href="#">FAQ</a>
+    </div>
+
+    <div>
+      <h4>Contacto</h4>
+      <p class="muted">info@hyperweb.com</p>
+      <p class="muted">+51 999 999 999</p>
+      <div class="badges">
+        <a class="pill" href="https://www.facebook.com/" target="_blank">Facebook</a>
+        <a class="pill" href="https://twitter.com/" target="_blank">Twitter</a>
+        <a class="pill" href="https://www.instagram.com/" target="_blank">Instagram</a>
+      </div>
+    </div>
+  </div>
+
+  <p class="copy center">&copy; 2025 Hyperweb. Todos los derechos reservados.</p>
+</footer>
+
+<a href="#" class="to-top" id="toTop" aria-label="Volver arriba">↑</a>
+
+<!-- WhatsApp Chat Widget -->
+<div id="whatsappWidget">
+  <div id="whatsappToggle">💬</div>
+  <div id="whatsappChat" style="display:none; flex-direction: column;">
+    <div id="whatsappHeader"><strong>Hyperweb</strong></div>
+    <div id="whatsappBody">
+      <div class="bot-msg">👋 ¡Hola! Somos Hyperweb. ¿En qué podemos ayudarte?</div>
+    </div>
+    <div id="whatsappFooter">
+      <input type="text" id="whatsappInput" placeholder="Escribe tu mensaje..." />
+      <button id="whatsappSend">Enviar</button>
+    </div>
+  </div>
+</div>
+
+
+
+
+</body>
+</html>
